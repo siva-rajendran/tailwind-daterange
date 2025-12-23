@@ -36,6 +36,17 @@ Make sure you have the required peer dependencies installed:
 npm install react dayjs
 ```
 
+### Tailwind CSS 4 Setup (Next.js)
+
+If you're using **Next.js** with Tailwind CSS 4, add the following to your `globals.css`:
+
+```css
+@import "tailwindcss";
+@source "../../node_modules/tailwind-daterange";
+```
+
+This tells Tailwind CSS 4 to scan the `tailwind-daterange` package for class usage.
+
 ## 🚀 Quick Start
 
 ```tsx
