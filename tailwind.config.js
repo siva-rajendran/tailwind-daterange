@@ -4,7 +4,5 @@ export default {
     darkMode: "class",
     theme: {},
     variants: {},
-    /* eslint-disable @typescript-eslint/no-require-imports */
     plugins: []
-    /* eslint-enable @typescript-eslint/no-require-imports */
 };

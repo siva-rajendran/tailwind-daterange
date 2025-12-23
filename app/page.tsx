@@ -62,7 +62,7 @@ export default function Playground() {
                 <Datepicker
                     value={value}
                     primaryColor={primaryColor as ColorKeys}
-                    onChange={(value, e) => {
+                    onChange={value => {
                         setValue(value);
                         // console.log(e);
                         // console.log("value", {

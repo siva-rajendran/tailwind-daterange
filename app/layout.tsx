@@ -9,9 +9,7 @@ const RootLayout = (props: Props) => {
     const { children } = props;
 
     return (
-        <html lang="en"
-        className="light"
-        >
+        <html lang="en">
             <body>{children}</body>
         </html>
     );

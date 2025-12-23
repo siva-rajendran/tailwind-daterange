@@ -1,13 +1,13 @@
 # Contributing
 
-Thanks for your interest in contributing to `tailwind-daterange`! Please take a moment to
-review this document **before submitting a pull request**.
+Thanks for your interest in contributing to `tailwind-daterange`! Please take a moment to review
+this document **before submitting a pull request**.
 
--   [Pull requests](#pull-requests)
--   [Installation](#installation)
--   [Coding standards](#coding-standards)
--   [Running playground](#running-playgrounds)
--   [Before you make a Pull Request](#before-you-make-a-pull-request)
+- [Pull requests](#pull-requests)
+- [Installation](#installation)
+- [Coding standards](#coding-standards)
+- [Running playground](#running-playgrounds)
+- [Before you make a Pull Request](#before-you-make-a-pull-request)
 
 ## Pull requests
 
