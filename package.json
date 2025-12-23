@@ -1,6 +1,6 @@
 {
     "name": "tailwind-daterange",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A modern React Datepicker using Tailwind CSS 4",
     "type": "module",
     "main": "dist/index.esm.js",
