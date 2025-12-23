@@ -2,12 +2,18 @@
     "name": "tailwind-daterange",
     "version": "0.0.1",
     "description": "A modern React Datepicker using Tailwind CSS 4",
-    "main": "dist/index.cjs.js",
+    "type": "module",
+    "main": "dist/index.esm.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.esm.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
     "author": "siva-rajendran",
     "license": "MIT",
-    "type": "module",
     "scripts": {
         "watch": "rollup -c -w",
         "clean": "rm -rf dist .rollup.cache tsconfig.rollup.tsbuildinfo",

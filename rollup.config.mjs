@@ -6,18 +6,12 @@ export default {
     input: "src/index.tsx",
     output: [
         {
-            file: "dist/index.cjs.js",
-            format: "cjs",
-            sourcemap: true,
-            inlineDynamicImports: true
-        },
-        {
             file: "dist/index.esm.js",
             format: "esm",
             sourcemap: true,
             inlineDynamicImports: true
         }
     ],
-    external: ["react", "dayjs"],
+    external: ["react", "react/jsx-runtime", "dayjs"],
     plugins: [resolve(), commonjs(), typescript({ tsconfig: "./tsconfig.rollup.json" })]
 };
