@@ -1,0 +1,31 @@
+## Folders
+src
+node_modules
+.vscode
+.idea
+assets
+.git
+app
+styles
+.next
+.rollup.cache
+.husky
+## Files
+babel.config.json
+tsconfig.json
+rollup.config.js
+next-env.d.ts
+next.config.js
+.gitignore
+.eslintignore
+.eslintrc.json
+.prettierrc
+.prettierignore
+.DS_Store
+npm-debug.log
+yarn-error.log
+tailwind.config.js
+postcss.config.js
+tsconfig.rollup.tsbuildinfo
+tsconfig.base.json
+tsconfig.rollup.json
